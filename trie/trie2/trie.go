@@ -1,3 +1,5 @@
+// https://www.naukri.com/code360/problems/implement-trie_1387095
+// insert, count words equal to, count words starting with, erase
 package trie2
 
 type Node struct {
