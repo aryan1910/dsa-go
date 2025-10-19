@@ -16,3 +16,9 @@
 |---|---------|-----|----------|
 | 1 | Implement Trie (search, startsWith) | https://leetcode.com/problems/implement-trie-prefix-tree | [Solution](https://github.com/aryan1910/dsa-go/blob/main/trie/trie/trie.go) |
 | 2 | Trie count words | https://www.naukri.com/code360/problems/implement-trie_1387095 | [Solution](https://github.com/aryan1910/dsa-go/blob/main/trie/trie2/trie.go) |
+
+## Graph
+
+| Problem | URL | Solution |
+|---------|-----|----------|
+| Number of Provinces | https://leetcode.com/problems/number-of-provinces | [Solution](https://github.com/aryan1910/dsa-go/blob/main/graph/numberOfProvinces.go) |
