@@ -3,6 +3,7 @@ package graph
 type DisjointSet struct {
 	Parent []int
 	Rank   []int
+	Size   []int
 }
 
 func NewDisjointSet(size int) *DisjointSet {
@@ -39,6 +40,21 @@ func (ds *DisjointSet) UnionByRank(u int, v int) {
 	} else {
 		ds.Parent[pu] = pv
 		ds.Rank[pv]++
+	}
+}
+
+func (ds* DisjointSet) UnionBySize(u int, v int) {
+	pu := ds.FindPar(u)
+	pv := ds.FindPar(v)
+	if pu == pv {
+		return
+	}
+	if ds.Size[pu] < ds.Size[pv] {
+		ds.Parent[pu] = pv
+		ds.Size[pv] += ds.Size[pu]
+	} else {
+		ds.Parent[pv] = pu
+		ds.Size[pu] += ds.Size[pv]
 	}
 }
 

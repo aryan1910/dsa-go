@@ -30,3 +30,4 @@
 | Problem | URL | Solution |
 |---------|-----|----------|
 | Number of Provinces | https://leetcode.com/problems/number-of-provinces | [Solution](https://github.com/aryan1910/dsa-go/blob/main/graph/numberOfProvinces.go) |
+| Accounts Merge | https://leetcode.com/problems/accounts-merge | [Solution](https://github.com/aryan1910/dsa-go/blob/main/graph/accountsMerge.go) |
