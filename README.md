@@ -10,6 +10,14 @@
 | 6 | Permutation Sequence | https://leetcode.com/problems/permutation-sequence | [Solution](https://github.com/aryan1910/dsa-go/blob/main/recursion/permutationSequence.go) |
 | 7 | Permutations | https://leetcode.com/problems/permutations | [Solution](https://github.com/aryan1910/dsa-go/blob/main/recursion/permutations.go) |
 
+## Binary Search
+
+| # | Problem | URL | Solution |
+|---|---------|-----|----------|
+| 1 | Search in Rotated Sorted Array | https://leetcode.com/problems/search-in-rotated-sorted-array/ | [Solution](https://github.com/aryan1910/dsa-go/blob/main/binary-search/searchInRoatedSorted.go) |
+| 2 | Pow(x, n) | https://leetcode.com/problems/powx-n/ | [Solution](https://github.com/aryan1910/dsa-go/blob/main/binary-search/power.go) |
+
+
 ## Trie
 
 | # | Problem | URL | Solution |
